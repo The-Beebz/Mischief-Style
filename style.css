@@ -1,1 +1,67 @@
 
+html {
+    font-size: 18px;
+    margin:0;
+    
+}
+
+body {
+font-family: "Nunito", sans-serif;
+background-color: rgb(142, 118, 141);
+}
+
+p {
+    font-size: 1rem;
+    color:#b2c4d4;
+}
+
+a {
+color: #161530;
+font-weight: bold;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.mischiefContainer {
+    display: block;
+    background-color:rgb(255, 255, 255);
+    margin:0;
+}
+
+.mischiefNavbar {
+    display: block;
+    background-color: rgb(111, 143, 195);
+    margin: .5rem;
+    padding: .5rem;
+}
+.mischiefSubNavbar {
+    display:block;
+    background-color:#52c0c4;
+    padding: .5rem;
+}
+.mischiefContent {  
+    display:flex;
+    flex-flow: row wrap;
+    background-color: rgb(94, 84, 116);
+    margin:auto;
+    padding: 1rem;
+    align-items: flex-start;
+}
+.mischiefPanel {
+    display:block;
+    flex: 0 1 auto;
+    background-color: rgb(52, 54, 93);
+    border: 5px white dotted;
+    padding:1rem;
+    margin:.5rem;
+    max-width: 40%;
+}
+.mischiefPanelTitlebar {
+    display:block;
+    background-color: rgb(44, 43, 59);
+    border: 5px black dotted;
+    padding:.5rem;
+    margin:0;
+}
